@@ -6,7 +6,7 @@
 #[
   #show table.cell.where(x: 0): set text(weight: "bold")
   #show table.cell.where(x: 2): set text(weight: "bold")
-  #set table(fill: (x, _) => if x == 0 or x == 2 or x == 4 {aqua-1})
+  #set table(fill: (x, _) => if x == 0 or x == 2 or x == 4 {theme-1})
   #table(
     columns: (13%, 20%, 13%, 30%, 24%),
     rows: (0.5in, 0.5in, 0.5in, 0.5in),
@@ -36,7 +36,7 @@
 
 #[
   #show table.cell.where(y: 0): set text(weight: "bold")
-  #set table(fill: (_, y) => if y == 0 {aqua-1})
+  #set table(fill: (_, y) => if y == 0 {theme-1})
   #table(
     columns: (33.33%, 33.34%, 33.33%),
     rows: (9%),

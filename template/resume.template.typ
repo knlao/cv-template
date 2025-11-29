@@ -9,7 +9,7 @@
     #box(
       width: 100%,
       inset: 0.5em,
-      fill: aqua-3
+      fill: theme-3
     )[*#title*]
   ]
   #text(font-size)[
